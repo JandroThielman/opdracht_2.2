@@ -1,0 +1,99 @@
+h1,h2,h3,p{
+    text-align: center;
+    font-family: monospace;
+}
+
+.img1{
+    padding-left: 29%;
+}
+
+.img2{
+    width: 15%;
+    height: 15%;
+    padding-left: 42%;
+}
+
+a{
+    padding-left: 47%;
+}
+
+body{
+    background-image: url(./Images/10838001_19333449.jpg);
+    background-size: 100%;
+    margin: 10px 10px 10px 0;
+    padding: 0;
+}
+
+.img0{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 98%;
+    z-index: -1;
+}
+
+h1,h2{
+    font-size: 75px; 
+    color: seagreen;
+}
+
+h3{
+    font-size: 25px;
+    color: red;
+}
+
+p{
+    font-size: 15px;
+    font-weight: bolder;
+    color: red;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #28282B;
+    position: absolute;
+    right: 650px;
+    left: 630px;
+    top: 1380px;
+    border-radius: 40px;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    letter-spacing: 8px;
+    font-family: monospace;
+    font-size: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+li a:hover{
+    background-color: #ff2600;
+    font-style: italic;
+    color: #fdf600;
+}
+
+div{
+    margin-top: 8%;
+}
+
+mark{
+    background-color: #28282B;
+    color:#fdf600;
+}
+
+mark:hover{
+    background-color: #ff2600;
+}
+
+.ff{
+    font-weight: 2400;
+    font-size: 25px;
+}
